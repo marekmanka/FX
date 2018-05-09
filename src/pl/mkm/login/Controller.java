@@ -8,12 +8,12 @@ public class Controller {
     @FXML
     private Button signIn;
     @FXML
-    private Text signInPassed;
+    private Label signInPassed;
 
     public void initialize(){
         signInPassed.setVisible(false);
         signInPassed.setText("acb");
-        //signIn.setOnAction( event -> signInPassed.setText("acb"));
+        signIn.setOnAction( event -> signInPassed.setText("acb"));
     }
 
 }
