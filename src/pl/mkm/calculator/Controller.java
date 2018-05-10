@@ -1,4 +1,4 @@
-package pl.mkm.m001;
+package pl.mkm.calculator;
 
 import javafx.fxml.FXML;
 
