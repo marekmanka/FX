@@ -9,7 +9,7 @@
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane cache="true" cacheHint="SPEED" cacheShape="false" centerShape="false" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="210.0" prefWidth="302.0" scaleShape="false" snapToPixel="false" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<Pane cache="true" cacheHint="SPEED" cacheShape="false" centerShape="false" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="210.0" prefWidth="302.0" scaleShape="false" snapToPixel="false" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.mkm.login.Controller">
    <children>
       <Group layoutX="29.0" layoutY="63.0">
          <children>
@@ -33,7 +33,7 @@
                <font>
                   <Font name="Tahoma" size="12.0" />
                </font></PasswordField>
-            <Label fx:id="signInPressed" layoutX="6.0" layoutY="101.0" prefHeight="17.0" prefWidth="147.0" text="Sign in button pressed..." textFill="#e10909">
+            <Label fx:id="sIP" layoutX="6.0" layoutY="101.0" prefHeight="17.0" prefWidth="147.0" text="Sign in button pressed..." textFill="#e10909" wrapText="true">
                <font>
                   <Font name="Tahoma" size="12.0" />
                </font>

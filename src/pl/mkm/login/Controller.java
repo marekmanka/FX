@@ -8,17 +8,17 @@ import javafx.scene.text.Text;
 import java.net.URL;
 import java.util.ResourceBundle;
 
-public class Controller implements Initializable {
+public class Controller {
     @FXML
     private Button signIn;
     @FXML
     private Label signInPassed;
 
-    @Override
-    public void initialize(URL location, ResourceBundle resources) {
+    public void initialize() {
+        //public void initialize(URL location, ResourceBundle resources) {
         //signInPassed.setVisible(false);
         signInPassed.setText("acb");
-        signIn.setOnAction( event -> signInPassed.setText("acb"));
-        System.out.println("sssssss");
+        //signIn.setOnAction( event -> signInPassed.setText("acb"));
+        //System.out.println("sssssss");
     }
 }

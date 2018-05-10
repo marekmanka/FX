@@ -6,7 +6,7 @@
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
 
-<Pane cache="true" cacheHint="SPEED" cacheShape="false" centerShape="false" depthTest="DISABLE" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="251.0" prefWidth="399.0" scaleShape="false" snapToPixel="false" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+<Pane cache="true" cacheHint="SPEED" cacheShape="false" centerShape="false" depthTest="DISABLE" maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="251.0" prefWidth="399.0" scaleShape="false" snapToPixel="false" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.mkm.calculator.Controller">
    <children>
       <Group layoutX="28.0" layoutY="96.0">
          <children>
