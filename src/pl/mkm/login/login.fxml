@@ -5,45 +5,65 @@
 <?import javafx.scene.control.Label?>
 <?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.text.Font?>
 <?import javafx.scene.text.Text?>
 
-<Pane cache="true" cacheHint="SPEED" cacheShape="false" centerShape="false" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="210.0" prefWidth="302.0" scaleShape="false" snapToPixel="false" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.mkm.login.Controller">
-   <children>
-      <Group layoutX="29.0" layoutY="63.0">
-         <children>
-            <TextField fx:id="login" layoutX="82.0" layoutY="2.0" prefHeight="25.0" prefWidth="163.0" promptText="Username">
-               <font>
-                  <Font name="Tahoma" size="12.0" />
-               </font></TextField>
-            <Button fx:id="SignIn" defaultButton="true" layoutX="171.0" layoutY="97.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" scaleShape="false" text="Sign in" textAlignment="CENTER" wrapText="true">
-               <font>
-                  <Font name="Tahoma" size="12.0" />
-               </font></Button>
-            <Text layoutX="6.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name:" wrappingWidth="86.13671875">
-               <font>
-                  <Font name="Tahoma" size="12.0" />
-               </font></Text>
-            <Text layoutX="6.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="86.13671875">
-               <font>
-                  <Font name="Tahoma" size="12.0" />
-               </font></Text>
-            <PasswordField fx:id="passwd" layoutX="82.0" layoutY="50.0" prefHeight="25.0" prefWidth="163.0" promptText="Password">
-               <font>
-                  <Font name="Tahoma" size="12.0" />
-               </font></PasswordField>
-            <Label fx:id="sIP" layoutX="6.0" layoutY="101.0" prefHeight="17.0" prefWidth="147.0" text="Sign in button pressed..." textFill="#e10909" wrapText="true">
-               <font>
-                  <Font name="Tahoma" size="12.0" />
-               </font>
-            </Label>
-         </children>
-      </Group>
-      <Text layoutX="35.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome">
-         <font>
-            <Font name="System Bold" size="18.0" />
-         </font>
-      </Text>
-   </children>
-</Pane>
+<GridPane alignment="center" hgap="10" vgap="10" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pl.mkm.login.LoginController">
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <Pane cache="true" cacheHint="SPEED" cacheShape="false" centerShape="false" depthTest="DISABLE" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" nodeOrientation="LEFT_TO_RIGHT" prefHeight="210.0" prefWidth="302.0" scaleShape="false" snapToPixel="false" xmlns="http://javafx.com/javafx/8.0.121" xmlns:fx="http://javafx.com/fxml/1">
+            <children>
+                <Group layoutX="29.0" layoutY="63.0">
+                    <children>
+                        <TextField fx:id="login" layoutX="82.0" layoutY="2.0" prefHeight="25.0" prefWidth="163.0" promptText="Username">
+                            <font>
+                                <Font name="Tahoma" size="12.0" />
+                            </font>
+                        </TextField>
+                        <Button fx:id="signIn" defaultButton="true" layoutX="171.0" layoutY="97.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="73.0" scaleShape="false" text="Sign in" textAlignment="CENTER" wrapText="true">
+                            <font>
+                                <Font name="Tahoma" size="12.0" />
+                            </font>
+                        </Button>
+                        <Text layoutX="6.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" text="User Name:" wrappingWidth="86.13671875">
+                            <font>
+                                <Font name="Tahoma" size="12.0" />
+                            </font>
+                        </Text>
+                        <Text layoutX="6.0" layoutY="67.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Password:" wrappingWidth="86.13671875">
+                            <font>
+                                <Font name="Tahoma" size="12.0" />
+                            </font>
+                        </Text>
+                        <PasswordField fx:id="passwd" layoutX="82.0" layoutY="50.0" prefHeight="25.0" prefWidth="163.0" promptText="Password">
+                            <font>
+                                <Font name="Tahoma" size="12.0" />
+                            </font>
+                        </PasswordField>
+                        <Label fx:id="signInPressed" layoutX="6.0" layoutY="101.0" prefHeight="17.0" prefWidth="147.0" text="Log In failed..." textFill="#e10909" wrapText="true">
+                            <font>
+                                <Font name="Tahoma" size="12.0" />
+                            </font>
+                        </Label>
+                    </children>
+                </Group>
+                <Text layoutX="35.0" layoutY="40.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Welcome">
+                    <font>
+                        <Font name="System Bold" size="18.0" />
+                    </font>
+                </Text>
+            </children>
+        </Pane>
+    </children>
+</GridPane>
