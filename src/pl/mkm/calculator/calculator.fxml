@@ -42,12 +42,17 @@
                   <Button fx:id="n9" layoutX="118.0" layoutY="-2.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="48.0" scaleShape="false" text="9" textAlignment="CENTER" wrapText="true" />
                </children>
             </Group>
-            <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" layoutX="26.0" layoutY="24.0" prefHeight="51.0" prefWidth="244.0" promptText="Hello!">
+            <TextField fx:id="display" alignment="CENTER_RIGHT" editable="false" layoutX="64.0" layoutY="24.0" prefHeight="51.0" prefWidth="206.0" promptText="Hello!" text="0,00">
                <font>
                   <Font size="24.0" />
                </font>
             </TextField>
-            <Button fx:id="slr" cancelButton="true" layoutX="295.0" layoutY="27.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="73.0" scaleShape="false" text="CLR" textAlignment="CENTER" wrapText="true" />
+            <Button fx:id="clr" cancelButton="true" layoutX="295.0" layoutY="27.0" mnemonicParsing="false" prefHeight="43.0" prefWidth="73.0" scaleShape="false" text="CLR" textAlignment="CENTER" wrapText="true" />
+            <TextField fx:id="sn" alignment="CENTER" editable="false" layoutX="27.0" layoutY="24.0" prefHeight="51.0" prefWidth="38.0">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </TextField>
          </children>
       </Pane>
    </children>
